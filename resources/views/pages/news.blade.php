@@ -114,7 +114,7 @@
 
                 <div id="sidebar" class="col-md-4">
 
-                    <div class="widget latest_news">
+                    {{-- <div class="widget latest_news">
                         <h3>Latest News</h3>
                         <ul class="bloglist-small">
                             <li>
@@ -150,11 +150,11 @@
                                 </div>
                             </li>
                         </ul>
-                    </div>
+                    </div> --}}
 
                     <!-- widget category -->
                     <!-- widget tags -->
-                    <div class="widget widget_tags">
+                    {{-- <div class="widget widget_tags">
                         <h3><span>Tags</span></h3>
                         <ul>
                             <li><a href="#link">business</a></li>
@@ -170,29 +170,27 @@
                             <li><a href="#link">modern</a></li>
                             <li><a href="#link">minimalist</a></li>
                         </ul>
-                    </div>
+                    </div> --}}
 
                     <!-- widget text -->
                     <div class="widget widget-text">
                         <h3>Our Address</h3>
 
                         <div class="gmap">
-                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.co.id/maps?f=q&amp;source=s_q&amp;hl=en&amp;q=16+Riverside+Rd,+Singapore&amp;sll=-2.547988,118.037109&amp;sspn=29.394918,50.756836&amp;ie=UTF8&amp;geocode=Fb8IFgAdu40vBg&amp;split=0&amp;hq=&amp;hnear=16+Riverside+Rd,+Singapore&amp;ll=1.444031,103.779771&amp;spn=0.014522,0.024784&amp;t=m&amp;z=14&amp;output=embed&amp;iwloc=false"></iframe>
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3966.1862484632456!2d106.843806657148!3d-6.239166374185659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d-6.2390975!2d106.84560549999999!4m5!1s0x2e69f3be5c26ec77%3A0x64c26418600922f!2sJl.%20Prof.%20DR.%20Soepomo%20No.45%2C%20RT.14%2FRW.6%2C%20Tebet%20Bar.%2C%20Kec.%20Tebet%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012870!3m2!1d-6.2392518!2d106.8455975!5e0!3m2!1sen!2sid!4v1671435661174!5m2!1sen!2sid"></iframe>
                         </div>
 
 
-                        Somewhere Over Rainbow<br>
-                        Green World Rainbow Green World<br>
-                        T. 0908 1000 1000<br>
-                        E. contact@exotheme.com<br>
+                        Jl. Prof Soepomo SH No.45 BZ Blok C,<br>
+                        Tebet, Jakarta Selatan 12810<br>
+                        Indonesia<br>
+                        service@ugc.co.id<br>
                     </div>
                     <!-- widget text -->
 
                     <div class="widget widget-text">
-                        <h3>About GoCargo</h3>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-                    
+                        <h3>About UGC</h3>
+                        <p>UGC Logistics adalah Logistik & Transportasi layanan lengkap yang menawarkan pengiriman udara, angkutan laut, truk, LTL, dipercepat, antar moda, manajemen proyek, dan layanan khusus. Kami memiliki keahlian yang memungkinkan kami untuk mempersiapkan dan memproses dokumentasi dan melakukan kegiatan terkait yang berkaitan dengan pengiriman internasional. Dengan solusi transportasi termasuk <strong>Udara</strong> dan <strong>Laut</strong>, di seluruh Indonesia (termasuk <strong>Muatan Truk</strong> dan <strong>Kurang Dari Beban Truk</strong>), <strong> Layanan 3PL, Manajemen Gudang</strong> dan <strong> Intermodal </strong>, kami dapat menciptakan solusi logistik rantai pasokan unik yang memungkinkan Anda untuk fokus pada hal yang paling penting – tujuan inti Anda.</p>
                     </div>
 
                 </div>

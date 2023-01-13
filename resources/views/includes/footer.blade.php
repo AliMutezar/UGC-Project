@@ -9,42 +9,30 @@
                 <h3>Our Services</h3>
                 <div class="tiny-border"></div>
                 <ul>
-                    <li><a href="#">Ocean Freight</a></li>
-                    <li><a href="#">Sky Freight</a></li>
-                    <li><a href="#">Cargo Express</a></li>
-                    <li><a href="#">Logistics</a></li>
-                    <li><a href="#">Warehousing</a></li>
-                    <li><a href="#">Custom Brokerage</a></li>
+                    <li><a href="#">Air & Sea Freight</a></li>
+                    <li><a href="#">Export, Import and Domestic</a></li>
+                    <li><a href="#">Medical evacuation</a></li>
+                    <li><a href="#">Spot charter cargo/pax</a></li>
+                    <li><a href="#">Industrial & government</a></li>
+                    <li><a href="#">Social projects</a></li>
                 </ul>
             </div>
 
             <div class="col-md-4">
-                <h3>Location</h3>
+                <h3>Head Office Location</h3>
                 <div class="tiny-border"></div>
-                Somewhere Over Rainbow<br>
-                Green World Rainbow Green World<br>
-                T. 0908 1000 1000<br>
-                E. contact@exotheme.com<br>
-
-                <div class="divider-single"></div>
-                <div class="social-icons">
-                    <a href="#"><i class="fa fa-facebook"></i></a>
-                    <a href="https://wa.me/6287883864673?text=Saya%20ingin%20bekerjasama%20dengan%20UGC" target="_blank">
-                        <i class="fa fa-whatsapp"></i>
-                    </a>
-
-                    <a href="#"><i class="fa fa-twitter"></i></a>
-                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                    <a href="#"><i class="fa fa-rss"></i></a>
-                    <a href="#"><i class="fa fa-envelope-o"></i></a>
-                </div>
+                Jl. Prof Soepomo SH No.45 BZ Blok C,<br>
+                Tebet, Jakarta Selatan 12810<br>
+                Indonesia<br>
+                service@ugc.co.id<br>
             </div>
 
             <div class="col-md-4">
-                <h3>Buy Now</h3>
+                <h3>Office & Warehouse</h3>
                 <div class="tiny-border"></div>
-                <p>Multi-modal container units, designed as reusable carriers to facilitate unit load handling of the goods contained, are also referred to as cargo, specially by shipping lines and logistics operators.</p>
-                <a href="#" class="btn-border-light">Buy Now</a>
+                Jl. Raya Cikunir No.58 Jati Asih<br>
+                Bekasi, Jawa Barat 17423<br>
+                Indonesia<br>
             </div>
 
         </div>
@@ -55,7 +43,7 @@
         <div class="row">
             <div class="col-md-12 text-center">
                 <div class="spacer-single"></div>
-                &copy; Copyright 2015 - GoCargo by ExoTheme
+                &copy; Copyright 2022 - UGC
             </div>
         </div>
     </div>

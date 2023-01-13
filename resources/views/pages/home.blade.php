@@ -12,7 +12,7 @@
                 <ul>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/bg-1.jpg" alt="">
+                        <img src="frontend/img-rev-slider/hero-3.PNG" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="20"
@@ -23,40 +23,40 @@
                             data-endspeed="300">
                         </div>
 
-                        <div class="tp-caption sfr custom-font-1"
+                        <div class="tp-caption sfr custom-font-1" style="text-shadow: 1px 1px #41444B;"
                             data-x="20"
                             data-y="180"
                             data-speed="800"
                             data-start="800"
                             data-easing="easeInOutCubic">
-                            BY LAND 
+                            WE CARE
                         </div>
 
-                        <div class="tp-caption sfr custom-font-1"
+                        <div class="tp-caption sfr custom-font-1" style="text-shadow: 1px 1px #41444B;"
                             data-x="20"
                             data-y="235"
                             data-speed="800"
                             data-start="1000"
                             data-easing="easeInOutCubic">
-                            BY SEA 
+                            WHAT WE DELIVERE
                         </div>
 
-                        <div class="tp-caption sfr custom-font-1"
+                        {{-- <div class="tp-caption sfr custom-font-1"
                             data-x="20"
                             data-y="290"
                             data-speed="800"
                             data-start="1200"
                             data-easing="easeInOutCubic">
                             BY AIR 
-                        </div>
+                        </div> --}}
 
-                        <div class="tp-caption sfb custom-font-2"
+                        <div class="tp-caption sfb custom-font-2" style="text-shadow: 1px 1px #41444B;"
                             data-x="20"
                             data-y="345"
                             data-speed="800"
                             data-start="1400"
                             data-easing="easeInOutCubic">
-                            Freight Solutions For All Industry
+                            We maintain good relations with our collaborators and stakeholders
                         </div>
 
                         <div class="tp-caption sfb text-left"
@@ -65,13 +65,14 @@
                             data-speed="800"
                             data-start="1600"
                             data-easing="easeInOutCubic">
-                            <a class="btn btn-slider" href="#">Buy Theme</a>&nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a>
+                            <a class="btn btn-slider" href="https://wa.me/6281284596614?text=Hi...%20UGC%20Aku%20Mau%20Nanya%20Nih" target="_blank">Contact US</a>&nbsp;&nbsp;
+                            {{-- <a class="btn btn-border-slider" href="#">Read More</a> --}}
                         </div>
                     </li>
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/bg-2.jpg" alt="">
+                        <img src="frontend/img-rev-slider/hero-2.PNG" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="center"
@@ -82,22 +83,22 @@
                             data-endspeed="300">
                         </div>
 
-                        <div class="tp-caption lft custom-font-1"
+                        <div class="tp-caption lft custom-font-1" style="text-shadow: 1px 1px #41444B;"
                             data-x="center"
                             data-y="220"
                             data-speed="800"
                             data-start="800"
                             data-easing="easeInOutCubic">
-                            Delivering Excellence 
+                            WE LOVE WHATA WE DO
                         </div>
 
-                        <div class="tp-caption sfb custom-font-2"
+                        <div class="tp-caption sfb custom-font-2" style="text-shadow: 1px 1px #41444B;"
                             data-x="center"
                             data-y="270"
                             data-speed="800"
                             data-start="1400"
                             data-easing="easeInOutCubic">
-                            We Deliver Fast International Cargo Services
+                           Our goals is to create a conducive business ecosystem
                         </div>
 
                         <div class="tp-caption sfb text-left"
@@ -106,13 +107,14 @@
                             data-speed="800"
                             data-start="1600"
                             data-easing="easeInOutCubic">
-                            <a class="btn btn-slider" href="#">Buy Theme</a>&nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a>
+                            <a class="btn btn-slider" href="https://wa.me/6281284596614?text=Hi...%20UGC%20Aku%20Mau%20Nanya%20Nih" target="_blank">Contact US</a>&nbsp;&nbsp;
+                            {{-- <a class="btn btn-border-slider" href="#">Read More</a> --}}
                         </div>
                     </li>
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/bg-5.jpg" alt="">
+                        <img src="frontend/img-rev-slider/hero-1.jpeg" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="center"
@@ -123,22 +125,22 @@
                             data-endspeed="300">
                         </div>
 
-                        <div class="tp-caption lft custom-font-1"
+                        <div class="tp-caption lft custom-font-1" style="text-shadow: 1px 1px #41444B;"
                             data-x="center"
                             data-y="220"
                             data-speed="800"
                             data-start="800"
                             data-easing="easeInOutCubic">
-                            Makes You Smile 
+                            UGC LOGISTIC
                         </div>
 
-                        <div class="tp-caption sfb custom-font-2"
+                        <div class="tp-caption sfb custom-font-2" style="text-shadow: 1px 1px #41444B;"
                             data-x="center"
                             data-y="270"
                             data-speed="800"
                             data-start="1400"
                             data-easing="easeInOutCubic">
-                            On Time Delivery Don't Worry Be Happy
+                            WE care what WE deliver
                         </div>
 
                         <div class="tp-caption sfb text-left"
@@ -147,7 +149,8 @@
                             data-speed="800"
                             data-start="1600"
                             data-easing="easeInOutCubic">
-                            <a class="btn btn-slider" href="#">Buy Theme</a>&nbsp;&nbsp;<a class="btn btn-border-slider" href="#">Read More</a>
+                            <a class="btn btn-slider" href="https://wa.me/6281284596614?text=Hi...%20UGC%20Aku%20Mau%20Nanya%20Nih" target="_blank">Contact US</a>&nbsp;&nbsp;
+                            {{-- <a class="btn btn-border-slider" href="#">Read More</a> --}}
                         </div>
                     </li>
                 </ul>
@@ -164,10 +167,10 @@
         <div class="box-container">
             <div id="bg-service-1" class="box-one-third light-text">
                 <div class="inner wow" data-wow-delay="0s">
-                    <h2 class="wow fadeIn" data-wow-delay=".2s">Ocean Freight</h2>
-                    <p class="wow fadeIn" data-wow-delay=".3s">The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container.</p>
+                    <h4 class="wow fadeIn" data-wow-delay=".2s">Air & Sea Freight Export, Import, and Domestics</h4>
+                    <h6 class="wow fadeIn" data-wow-delay=".3s">We specialise in all types of commercial freight & cargo.</h6>
                     <div class="divider-single"></div>
-                    <a href="service-details-1.html" class="btn-border-light wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".3s">Read More</a>
+                    {{-- <a href="service-details-1.html" class="btn-border-light wow fadeInUp" data-wow-delay=".4s" data-wow-duration=".3s">Read More</a> --}}
                 </div>
             </div>
 
@@ -175,19 +178,19 @@
 
             <div id="bg-service-3" class="box-one-third light-text">
                 <div class="inner">
-                    <h2 class="wow fadeIn" data-wow-delay=".4s">Logistics</h2>
-                    <p class="wow fadeIn" data-wow-delay=".5s">The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                    <h4 class="wow fadeIn" data-wow-delay=".4s">Medical evacuation & spot charter cargo pax</h4>
+                    <h6 class="wow fadeIn" data-wow-delay=".5s">Do you need help booking a jet/boeing or air bus? We can make your goals come true.</h6>
                     <div class="divider-single"></div>
-                    <a href="service-details-2.html" class="btn-border-light wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".3s">Read More</a>
+                    {{-- <a href="service-details-3.html" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a> --}}
                 </div>
             </div>
 
             <div id="bg-service-2" class="box-one-third light-text">
                 <div class="inner">
-                    <h2 class="wow fadeIn" data-wow-delay=".6s">Air Freight</h2>
-                    <p class="wow fadeIn" data-wow-delay=".7s">The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                    <h4 class="wow fadeIn" data-wow-delay=".6s">Industrial & government and social projects</h4>
+                    <h6 class="wow fadeIn" data-wow-delay=".7s">Support for the project and give attention to social and environmental</h6>
                     <div class="divider-single"></div>
-                    <a href="service-details-3.html" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a>
+                    {{-- <a href="service-details-3.html" class="btn-border-light wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".3s">Read More</a> --}}
                 </div>
             </div>
         </div>
@@ -195,128 +198,6 @@
 
 
         <div class="clearfix"></div>
-
-        <!-- section begin -->
-        <section id="section-tracking">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <div class="cta-form wow fadeIn" data-wow-delay="0s" data-wow-duration="1s">
-                            <input type="text" name="track" value="" placeholder="Insert tracking number here...">
-                            <input type="submit" id="track-it" name="submit" value="TRACK IT">
-                            <div class="clearfix"></div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-
-            <div id="section-tracking-result" class="light-text">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-md-8 col-md-offset-2">
-                            <div class="divider-double"></div>
-                            <div class="text-center">
-                                <h3><span class="grey">Product ID:</span> 112345679087328</h3>
-                            </div>
-
-
-                            <div class="divider-double"></div>
-
-                            <div class="wrapper-line padding40 rounded10">
-
-
-                                <ul class="progress">
-                                    <li><a href="">Accepted</a></li>
-                                    <li class="beforeactive"><a href="">Order Processing</a></li>
-                                    <li class="active"><a href="">Shipment Pending</a></li>
-                                    <li><a href="">Estimated Delivery</a></li>
-                                </ul>
-
-                                <div class="divider-double"></div>
-
-                                <ul class="timeline custom-tl">
-
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
-                                            Nov 03, 2015
-        <span>20:07 pm</span>
-                                        </div>
-                                        <div class="timeline-badge success"><i class="fa fa-check-square-o wow zoomIn"></i></div>
-                                        <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
-                                            <div class="timeline-body">
-                                                The shipment has been successfully delivered 
-            <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
-                                            Nov 03, 2015
-        <span>20:07 pm</span>
-                                        </div>
-                                        <div class="timeline-badge warning"><i class="fa fa-warning wow zoomIn"></i></div>
-                                        <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
-                                            <div class="timeline-body">
-                                                The shipment could not be delivered 
-            <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
-                                            Nov 03, 2015
-        <span>20:07 pm</span>
-                                        </div>
-                                        <div class="timeline-badge"><i class="fa fa-plane wow zoomIn"></i></div>
-                                        <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
-                                            <div class="timeline-body">
-                                                The shipment has arrived in destination country
-            <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
-                                            Nov 02, 2015
-        <span>18:05 pm</span>
-                                        </div>
-                                        <div class="timeline-badge"><i class="fa fa-plane wow zoomIn"></i></div>
-                                        <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
-                                            <div class="timeline-body">
-                                                The shipment is being transformed to destination country
-            <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li class="timeline-inverted">
-                                        <div class="timeline-date wow zoomIn" data-wow-delay=".2s">
-                                            Nov 01, 2015
-        <span>10:08 pm</span>
-                                        </div>
-                                        <div class="timeline-badge"><i class="fa fa-plane wow zoomIn"></i></div>
-                                        <div class="timeline-panel wow fadeInRight" data-wow-delay=".6s">
-                                            <div class="timeline-body">
-                                                The international shipment has been processed
-            <span class="location">Baker Street, UK <a href="https://maps.google.com/maps?q=221B+Baker+Street,+London,+United+Kingdom&amp;hl=en&amp;t=v&amp;hnear=221B+Baker+St,+London+NW1+6XE,+United+Kingdom" class="popup-gmaps">view on map</a></span>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-        <!-- section close -->
 
         <!-- section begin -->
         <section id="section-features">
@@ -328,12 +209,13 @@
                         </h2>
                         <div class="small-border wow flipInY" data-wow-delay=".2s" data-wow-duration=".8s"></div>
                     </div>
+                    
                     <div class="col-md-6">
                         <div class="feature-box">
                             <i class="icon-tools wow zoomIn" data-wow-delay="0s"></i>
                             <div class="text wow fadeIn" data-wow-delay=".2s">
-                                <h3>Customer Satisfication Tools</h3>
-                                <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
+                                <h3>Work Exprerience</h3>
+                                <p>We rely on your experience about 27 years in the world of domestic and international cargo.</p>
                             </div>
                         </div>
                     </div>
@@ -342,8 +224,8 @@
                         <div class="feature-box">
                             <i class="icon-bargraph wow zoomIn" data-wow-delay=".2s"></i>
                             <div class="text wow fadeIn" data-wow-delay=".4s">
-                                <h3>Management &amp; Reporting</h3>
-                                <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
+                                <h3>We Love What We Do</h3>
+                                <p>We carry out the process in detail to achieve maximum results for our customer satisfaction.</p>
                             </div>
                         </div>
                     </div>
@@ -352,8 +234,8 @@
                         <div class="feature-box">
                             <i class="icon-pricetags wow zoomIn" data-wow-delay=".4s"></i>
                             <div class="text wow fadeIn" data-wow-delay=".6s">
-                                <h3>Freight Payment Options</h3>
-                                <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
+                                <h3>Circumspect</h3>
+                                <p>With measurable consideration and accuracy and negotiable price.</p>
                             </div>
                         </div>
                     </div>
@@ -362,8 +244,8 @@
                         <div class="feature-box">
                             <i class="icon-refresh wow zoomIn" data-wow-delay=".6s"></i>
                             <div class="text wow fadeIn" data-wow-delay=".8s">
-                                <h3>Compliance Solutions</h3>
-                                <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or intermodal container.</p>
+                                <h3>Safety Responsible and Timely</h3>
+                                <p>According to the target and important and prioritizing speed and safety.</p>
                             </div>
                         </div>
                     </div>
@@ -548,33 +430,34 @@
                         <ul class="accordion">
 
                             <li>
-                                <a class="Active">Why are the shipping rates so volatile?</a>
+                                <a class="Active" style="font-size: 11px">Bagaimana cara melacak status pengiriman barang ?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Detail status pengiriman dapat dicek melalui Tracking yang ada pada website, dengan memasukkan nomor resi. 
                                 </div>
                             </li>
 
                             <li>
-                                <a class="NoneActive">What are the usual methods of freight payment?</a>
+                                <a class="NoneActive" style="font-size: 11px">Berapa lama estimasi waktu pengiriman barang sampai pada tujuan ?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Lama waktu pengiriman akan tergantung pada lokasi alamat pengiriman, dan tipe layanan yang digunakan. 
                                 </div>
                             </li>
 
                             <li>
-                                <a class="NoneActive">Do you handle international household moves?</a>
+                                <a class="NoneActive" style="font-size: 11px">Bagaimana saya dapat mengetahui harga dari setiap pengiriman barang yang diinginkan?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Untuk mendapatkan detail harga, dapat menghubungi contact marketing yang sudah tertera pada website. 
                                 </div>
                             </li>
-
 
                             <li>
-                                <a class="NoneActive">How and where can we pick up the cargo at destination?</a>
+                                <a class="NoneActive" style="font-size: 11px">Transportasi darat, laut, udara pilih mana ?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Ini tentu sesuai dengan kebutuhan Anda. Jika Anda ingin cepat pilih jasa transportasi udara namun tarif pengirimannya lebih mahal. Jika ingin lebih murah, Anda bisa pilih jasa transportasi kapal laut atau darat. Akan tetapi waktu pengirimannya lebih lama. 
                                 </div>
                             </li>
+
+                            
                         </ul>
 
                     </div>
@@ -584,40 +467,42 @@
                         <ul class="accordion">
 
                             <li>
-                                <a class="Active">Why are the shipping rates so volatile?</a>
+                                <a class="Active" style="font-size: 11px">Bisa Import dari China atau lainnya ke Indonesia, berapa ratesnya ?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Untuk mengetahui rates dengan cepat, jangan lupa sertakan rincian berupa origin, destination, pengiriman jalur darat, laut, udara, MSDS, jenis produk, dan kuantitas product. 
                                 </div>
                             </li>
 
                             <li>
-                                <a class="NoneActive">What are the usual methods of freight payment?</a>
+                                <a class="NoneActive" style="font-size: 11px">Saya mau melakukan pengiriman, bisa tidak diambil ketempat saya?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Sangat bisa sekali, karena itu salah satu service yang disediakan ugc logistics, yaitu Door To Door, memudahkan keperluan pengiriman anda. 
                                 </div>
                             </li>
 
                             <li>
-                                <a class="NoneActive">Do you handle international household moves?</a>
+                                <a class="NoneActive" style="font-size: 11px">Pengemasan barang (packing) yang disediakan UGC ?</a>
                                 <div class="content">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    Packing barang yang disediakan ugc logistics, yaitu : Packing Kayu, Packing Bubble Wrap, Packing Karung, Packing Kardus, Packing Plastik. 
                                 </div>
                             </li>
 
 
-                            <li>
+                            {{-- <li>
                                 <a class="NoneActive">How and where can we pick up the cargo at destination?</a>
                                 <div class="content">
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                                 </div>
-                            </li>
+                            </li> --}}
                         </ul>
                     </div>
 
                     <div class="divider-single"></div>
 
                     <div class="text-center">
-                        <a href="#" class="btn-border-light wow fadeInUp" data-wow-delay="0">Have More Questions?</a>
+                        {{-- <a href="https://wa.me/6281284596614?text=Hi...%20UGC%20Aku%20Mau%20Nanya%20Nih" target="_blank" class="btn-border-light wow fadeInUp" data-wow-delay="0">Have More Questions?</a> --}}
+
+                        <a class="btn-border-light wow fadeInUp" href="https://wa.me/6281284596614?text=Hi...%20UGC%20Aku%20Mau%20Nanya%20Nih" target="_blank">Have More Questions ?</a>
                     </div>
 
 
@@ -636,7 +521,8 @@
                     </div>
 
                     <div class="col-md-3">
-                        <a href="#" class="btn-border-light">Contact Us</a>
+                        {{-- <a href="#" class="btn-border-light">Contact Us</a> --}}
+                        <a class="btn-border-light " href="https://wa.me/6281284596614?text=Hi...%20UGC%20Aku%20Mau%20Nanya%20Nih" target="_blank">Contact Us</a>
                     </div>
                 </div>
             </div>

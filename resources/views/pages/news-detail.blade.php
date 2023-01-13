@@ -28,9 +28,9 @@
         <div class="row mt-5 d-flex justify-content-center">
             <div class="col-md-8 col-xs-12">
                 <div class="media">
-                    <img src="frontend/img/avatar.jpg" class="mr-3 img-fluid profile-img rounded-circle" alt="...">
+                    <img src="https://ui-avatars.com/api/?name={{ $post->user->name }}" class="mr-3 img-fluid profile-img rounded-circle" alt="...">
                     <div class="media-body">
-                        <h5 class="mt-0 d-inline">Ahmad Ali Mutezar</h5>
+                        <h5 class="mt-0 d-inline">{{ $post->user->name }}</h5>
                         <p>22 July 2022 <span class="separator">|</span> Category : <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a> </p>
                     </div>
                 </div>
@@ -53,20 +53,20 @@
                 </div>
                 <!-- End Post -->
 
-                <div>
+                {{-- <div>
                     <ul class="tags">
                         <li><a href="#">Design</a></li>
                         <li><a href="#">Growth Mindset</a></li>
                         <li><a href="#">Productivity</a></li>
                         <li><a href="#">Personal Growth</a></li>
                     </ul>
-                </div>
+                </div> --}}
             </div>
         </div>
 
 
         <!-- Begin Related Post -->
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-md-4 my-5">
                 <div class="card border-0">
                     <a href="#anotherpost">
@@ -135,7 +135,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
         <!-- End Related Post -->
     </div>
 @endsection

@@ -33,25 +33,41 @@
                 </div>
 
                 <div class="col-md-6">
-                    <div id="contact-form-wrapper">
+                    <div id="contact-form-wrapper" style="height: 100%;">
+                        @if (session()->has('success'))
+                            <div class="alert alert-success alert-dismissible" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <strong>Success</strong> {{ session('success') }}
+                            </div>
+                        @endif
                         <div class="contact_form_holder">
-                            <form id="contact" class="row" name="form1" method="post" action="">
+                            <form action="/contact-post" method="POST" id="contact" class="row">
+                                @csrf
+
                                 <input type="text" class="form-control" name="name" id="name" placeholder="Your name" />
+                                @error('name')
+                                    <div class="error">{{ $message }}</div>
+                                @enderror
 
-                                <div id="error_email" class="error">Please check your email</div>
-                                <input type="text" class="form-control" name="email" id="email" placeholder="Your email" />
+                                <input type="text" class="form-control" name="tlpn" id="tlpn" placeholder="Your Number" />
+                                @error('tlpn')
+                                    <div class="error">{{ $message }}</div>
+                                @enderror
 
-                                <div id="error_message" class="error">Please check your message</div>
-                                <textarea cols="10" rows="10" name="message" id="message" class="form-control" placeholder="Your message"></textarea>
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Your email" />
+                                @error('email')
+                                    <div class="error">{{ $message }}</div>
+                                @enderror
 
-                                <div id="mail_success" class="success">Thank you. Your message has been sent.</div>
-                                <div id="mail_failed" class="error">Error, email not sent</div>
+                                
 
-                                <p id="btnsubmit">
+                                {{-- <p id="btnsubmit">
                                     <input type="submit" id="send" value="Send" class="btn btn-custom" />
-                                </p>
+                                </p> --}}
 
-
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-primary">Send</button>
+                                </div>
 
                             </form>
                         </div>

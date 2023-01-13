@@ -42,7 +42,7 @@
                         <li><a href="/track" class="{{ Request::is('track') ? 'active' : '' }}">Track</a></li>
                         <li><a href="/news" class="{{ Request::is('news') ? 'active' : '' }}">News</a></li>
                         <li><a href="/gallery" class="{{ Request::is('gallery') ? 'active' : '' }}">Gallery</a></li>
-                        <li><a href="/contact" class="{{ Request::is('contact') ? 'active' : '' }}">Contact</a></li>
+                        <li><a href="/contact" class="{{ Request::is('contact') ? 'active' : '' }}">Freelance</a></li>
                     </ul>
                 </nav>
                 <!-- mainmenu close -->

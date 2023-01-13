@@ -46,7 +46,9 @@
                     <a class="collapse-item {{ Request::routeIs('admin.posts*') ? 'active' : '' }} " href="/admin/posts">News</a>
                     <a class="collapse-item {{ Request::routeIs('admin.categories*') ? 'active' : '' }} " href="/admin/categories">Category</a>
                     <a class="collapse-item {{ Request::routeIs('admin.users*') ? 'active' : '' }}" href="/admin/users">User</a>
-                    @endcan
+                    <a class="collapse-item {{ Request::routeIs('admin.shipments*') ? 'active' : '' }}" href="/admin/shipments">Shipping</a>
+                    <a class="collapse-item {{ Request::routeIs('admin.ugcfreelances*') ? 'active' : '' }}" href="/admin/ugcfreelances">UGC Freelance</a>
+                @endcan
                     
                 @can('isUser')
                     <a class="collapse-item {{ Request::routeIs('admin.posts*') ? 'active' : '' }} " href="/admin/posts">News</a>
@@ -56,12 +58,12 @@
     </li>
 
     <!-- Nav Item - Utilities Collapse Menu -->
-    <li class="nav-item">
+    {{-- <li class="nav-item">
         <a class="nav-link" href="index.html">
             <i class="fas fa-users-cog"></i>
             <span>Prospective Employees</span>
         </a>
-    </li>
+    </li> --}}
 
     <!-- Divider -->
     <hr class="sidebar-divider">

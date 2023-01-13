@@ -2,6 +2,7 @@
 
 namespace Database\Seeders;
 
+use App\Models\ShipmentHistory;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -18,7 +19,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             UserSeeder::class,
             CategorySeeder::class,
-            PostSeeder::class
+            PostSeeder::class,
+            // ShipmentHistorySeeder::class,
+            // ShipmentSeeder::class
         ]);
     }
 }

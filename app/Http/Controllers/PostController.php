@@ -27,7 +27,7 @@ class PostController extends Controller
 
         return view('pages.news', [
             "title" => $title,
-            "posts" => Post::latest()->filter(request(['search', 'category', 'user']))->paginate(3)->withQueryString() // scopeFilter model post, bawa query ke halaman selanjutnya
+            "posts" => Post::latest()->filter(request(['search', 'category', 'user']))->paginate(6)->withQueryString() // scopeFilter model post, bawa query ke halaman selanjutnya
         ]);
     }
 

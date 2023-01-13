@@ -29,6 +29,10 @@
                 <div class="divider-single"></div>
                 <div class="social-icons">
                     <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="https://wa.me/6287883864673?text=Saya%20ingin%20bekerjasama%20dengan%20UGC" target="_blank">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+
                     <a href="#"><i class="fa fa-twitter"></i></a>
                     <a href="#"><i class="fa fa-google-plus"></i></a>
                     <a href="#"><i class="fa fa-rss"></i></a>

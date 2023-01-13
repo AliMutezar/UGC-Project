@@ -7761,8 +7761,9 @@ button.bg-dark:focus {
   margin-top: 1.5rem !important;
 }
 
-.my-custom-file {
+.my-custom-file, .my-custom-file-bukti-kirim{
   margin-top: 2rem !important;
+  padding: 0 10px !important;
 }
 
 .mr-4,

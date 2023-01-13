@@ -54,7 +54,7 @@
                                     <option value="0">Choose Role</option>
                                     <option value="admin" {{ old('role') == 'admin' ? 'selected' : '' }}>Admin</option>
                                     <option value="user" {{ old('role') == 'user' ? 'selected' : '' }}>User</option>
-                                    <option value="manager" {{ old('role') == 'manager' ? 'selected' : '' }}>Manager</option>
+                                    {{-- <option value="manager" {{ old('role') == 'manager' ? 'selected' : '' }}>Manager</option> --}}
                                 </select>
 
                                 @error('role')

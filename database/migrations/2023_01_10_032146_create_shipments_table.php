@@ -16,6 +16,7 @@ class CreateShipmentsTable extends Migration
         Schema::create('shipments', function (Blueprint $table) {
             $table->id();
             $table->string('marking_number');
+            $table->string('email');
             $table->string('service');
             $table->string('shipper');
             $table->string('consignee');

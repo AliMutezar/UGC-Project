@@ -230,6 +230,19 @@
                             </div>
                         </div>
 
+                        <div class="form-row my-3">
+                            <div class="col-md-6"></div>
+                            <div class="col-md-6">
+                                <label for="email" class="form-label">Customer Email</label>
+                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $shipment->email) }}">
+
+                                @error('email')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+                        </div>
 
                         <button type="submit" class="btn btn-primary mt-4">
                             <i class="fas fa-save mr-2"></i> Update Shipment

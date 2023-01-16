@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Jobs\SendMailJob;
 use App\Models\Shipment;
 use App\Models\ShipmentHistory;
 use Carbon\Carbon;
@@ -58,7 +59,8 @@ class ShipmentController extends Controller
             "destination" => ['required', 'max:255'],
             "status" => ['required', Rule::notIn(['0'])],
             "image" =>  ['image','file','max:2048'],
-            "note" => ['required', 'max:255']
+            "note" => ['required', 'max:255'],
+            "email" => ['required']
         ]);
 
         // dd($request['pickup_date']);
@@ -81,6 +83,8 @@ class ShipmentController extends Controller
         // insert into 2 Tables(shipments and shipment histories)
         Shipment::create($validateData);
         ShipmentHistory::create($validateData);
+
+        dispatch(new SendMailJob($validateData));
         return redirect('admin/shipments')->with('success', 'Shipment has been added');
     }
 
@@ -132,7 +136,8 @@ class ShipmentController extends Controller
             "destination" => ['required', 'max:255'],
             "status" => ['required', Rule::notIn(['0'])],
             "image" =>  ['image','file','max:2048'],
-            "note" => ['required', 'max:255']
+            "note" => ['required', 'max:255'],
+            "email" => ['required']
         ]);
 
         // dd($request['pickup_date']);
@@ -156,6 +161,7 @@ class ShipmentController extends Controller
         Shipment::where('marking_number', $shipment->marking_number)->update($validateData);
         ShipmentHistory::create($validateData);
 
+        dispatch(new SendMailJob($validateData));
         return redirect('admin/shipments')->with('success', 'Shipment has been updated');
     }
 

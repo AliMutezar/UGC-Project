@@ -73,4 +73,5 @@ Route::middleware(['auth'])->prefix('admin')->name('admin.')->group(function() {
 Route::controller(FreelanceController::class)->group(function() {
     Route::get('/contact', 'index');
     Route::post('/contact-post', 'store');
+    Route::get('/reload-captcha', 'reloadCaptcha');
 });

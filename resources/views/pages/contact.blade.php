@@ -28,8 +28,8 @@
     <div id="content">
         <div class="container">
             <div class="row no-gutter">
-                <div style="position: relative; overflow: hidden;" class="col-md-6">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3966.1862484632456!2d106.843806657148!3d-6.239166374185659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d-6.2390975!2d106.84560549999999!4m5!1s0x2e69f3be5c26ec77%3A0x64c26418600922f!2sJl.%20Prof.%20DR.%20Soepomo%20No.45%2C%20RT.14%2FRW.6%2C%20Tebet%20Bar.%2C%20Kec.%20Tebet%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012870!3m2!1d-6.2392518!2d106.8455975!5e0!3m2!1sen!2sid!4v1671435661174!5m2!1sen!2sid" width="600" height="464" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div style="position: block; overflow: hidden;" class="col-md-6">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d3966.1862484632456!2d106.843806657148!3d-6.239166374185659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e0!4m3!3m2!1d-6.2390975!2d106.84560549999999!4m5!1s0x2e69f3be5c26ec77%3A0x64c26418600922f!2sJl.%20Prof.%20DR.%20Soepomo%20No.45%2C%20RT.14%2FRW.6%2C%20Tebet%20Bar.%2C%20Kec.%20Tebet%2C%20Kota%20Jakarta%20Selatan%2C%20Daerah%20Khusus%20Ibukota%20Jakarta%2012870!3m2!1d-6.2392518!2d106.8455975!5e0!3m2!1sen!2sid!4v1671435661174!5m2!1sen!2sid" width="100%" height="464" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
 
                 <div class="col-md-6">
@@ -44,21 +44,43 @@
                             <form action="/contact-post" method="POST" id="contact" class="row">
                                 @csrf
 
-                                <input type="text" class="form-control" name="name" id="name" placeholder="Your name" />
-                                @error('name')
-                                    <div class="error">{{ $message }}</div>
-                                @enderror
+                                <div class="form-group">
+                                    <input type="text" class="form-control @error('name') is-invalid @enderror" name="name" id="name" placeholder="Your name" />
+                                    @error('name')
+                                        <div class="invalid-feedback text-danger">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
+                                </div>
 
-                                <input type="text" class="form-control" name="tlpn" id="tlpn" placeholder="Your Number" />
-                                @error('tlpn')
-                                    <div class="error">{{ $message }}</div>
-                                @enderror
+                                <div class="form-group">
+                                    <input type="text" class="form-control @error('tlpn') is-invalid @enderror" name="tlpn" id="tlpn" placeholder="Your Number" />
+                                    @error('tlpn')
+                                        <div class="invalid-feedback text-danger">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
+                                </div>
 
-                                <input type="email" class="form-control" name="email" id="email" placeholder="Your email" />
-                                @error('email')
-                                    <div class="error">{{ $message }}</div>
-                                @enderror
+                                <div class="form-group">
+                                    <input type="email" class="form-control @error('email') is-invalid @enderror" name="email" id="email" placeholder="Your email" />
+                                    @error('email')
+                                        <div class="invalid-feedback text-danger">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
+                                </div>
 
+                                <div class="form-group">
+                                    {!! NoCaptcha::renderJs() !!}
+                                    {!! NoCaptcha::display() !!}
+
+                                    @error('g-recaptcha-response')
+                                        <div class="invalid-feedback text-danger">
+                                            {{ $message }}
+                                        </div>
+                                    @enderror
+                                </div>
                                 
 
                                 {{-- <p id="btnsubmit">

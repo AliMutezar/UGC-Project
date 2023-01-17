@@ -3643,6 +3643,10 @@ float: left;
 width: 100%;
 }
 
+.img-custom {
+	height: 203px !important;
+}
+
 #gallery .item h4 {
 font-size: 16px;
 margin-bottom: 0;

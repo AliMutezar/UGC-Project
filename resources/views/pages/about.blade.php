@@ -27,29 +27,35 @@
     <div id="content">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-6" style="text-align: justify;">
                     <img src="frontend/img/pic-1.jpg" class="img-responsive" alt="">
                     <div class="divider-single"></div>
                     <h2>Who We Are</h2>
                     <div class="tiny-border"></div>
-                    <p>Ketika Anda mencari perusahaan logistik & pengiriman barang yang berdedikasi dan dapat dipercaya, lihat kami.. Didirikan pada tahun 1995, UGC Logistics adalah salah satu perusahaan pengiriman barang domestik & internasional terkemuka, relokasi dan perusahaan manajemen logistik proyek yang memberikan solusi hemat biaya dengan standar kelas dunia jasa.</p>
+                    <p>When you are looking for dedicated and trustworthy logistics & freight forwarding companies, check us out.. Established in 1995, UGC Logistics is one the leading domestics & international freight forwarding, relocation and project logistics management companies delivering cost-effective solutions with world class standard services.</p>
 
-                    {{-- <p>UGC Logistics adalah Logistik & Transportasi layanan lengkap yang menawarkan pengiriman udara, angkutan laut, truk, LTL, dipercepat, antar moda, manajemen proyek, dan layanan khusus. Kami memiliki keahlian yang memungkinkan kami untuk mempersiapkan dan memproses dokumentasi dan melakukan kegiatan terkait yang berkaitan dengan pengiriman internasional. Dengan solusi transportasi termasuk <strong>Udara</strong> dan <strong>Laut</strong>, di seluruh Indonesia (termasuk <strong>Muatan Truk</strong> dan <strong>Kurang Dari Beban Truk</strong>), <strong> Layanan 3PL, Manajemen Gudang</strong> dan <strong> Intermodal </strong>, kami dapat menciptakan solusi logistik rantai pasokan unik yang memungkinkan Anda untuk fokus pada hal yang paling penting – tujuan inti Anda.</p>
+                    <p>UGC Logistics is a full-service Logistics & Transportation offering airfreight, sea freight, truckload, LTL, expedited, intermodal, project management, and specialized services. We have the expertise that allows us to prepare and process the documentation and perform related activities pertaining to international shipments. With transportation solutions including Air and Sea, across Indonesia (including Truckload and Less Than Truckload), 3PL Services, Warehouse Management and Intermodal, we can create a unique supply chain logistics solution that will allow you to focus on what matters most - your core goals.</p>
 
-                    <p>Melalui pendidikan berkelanjutan dari agen kami - baik layanan pelanggan dan pengangkutan - serta melalui mitra kami, UGC Logistics memastikan Anda akan ditangani oleh tim kami yang berpengalaman dan berdedikasi.</p>
+                    <p>Through ongoing education of our agents -- both customer service and cartage -- as well as through our partners, UGC Logistics ensures you will be handled by our experience and dedicated team.</p>
 
-                    <p>UGC Logistics adalah pemimpin yang terbukti di antara perusahaan pengiriman barang domestik dan internasional di pasar. Ini dicapai dengan mempelajari tujuan pasti pelanggan sehubungan dengan persyaratan internal dan eksternal mereka. Layanan kami disesuaikan dan disesuaikan berdasarkan kebutuhan. Ketika Anda siap untuk mempelajari lebih lanjut tentang solusi transportasi kami kapan saja.</p>
+                    <p>UGC Logistics is a proven leader among domestic and international freight forwarding companies in the market. This is accomplished by learning customers' exact objectives with regards to their internal and external requirements. Our service is customized and tailored base on those needed. When you are ready to learn more about our transportation solutions, contact us at anytime.</p>
 
-                    <p>Sebagai pemasok pilihan untuk berbagai perusahaan Fortune ratusan kami sangat bangga dengan reputasi kami dan selalu berusaha untuk mempertahankannya.</p> --}}
+                    <p>As the preferred supplier for various Fortune hundreds companies we are very proud of our reputation and always strive to maintain it.</p>
+
 
                 </div>
+
                 <div class="col-md-6">
                     <img src="frontend/img/pic-2.jpg" class="img-responsive" alt="">
                     <div class="divider-single"></div>
-                    <h2>What We Do</h2>
+                    <h2>Why Us</h2>
                     <div class="tiny-border"></div>
 
-                    <p>Multi-modal container units, designed as reusable carriers to facilitate unit load handling of the goods contained, are also referred to as cargo, specially by shipping lines and logistics operators. Similarly, aircraft ULD boxes are also documented as cargo, with associated packing list of the items contained within. When empty containers are shipped each unit is documented as a cargo and when goods are stored within, the contents are termed as containerised cargo.</p>
+                    <p>Successful logistics & freight forwarding company in challenging markets like the Indonesia & Asia require expertise, inside knowledge, and reputation businesses can trust. This is why UGC Logistics is the preferred choice of many esteemed hundreds companies in the region. Our in-depth knowledge of the Indonesia and Asia, coupled with our regional and international service network makes UGC Logistics a leading service provider in the region.
+                    </p>
+
+                    <p>UGC Logistics provides "one-stop-solution" to meet all of your logistics requirements. Whether you are looking to relocate household goods across the region, move an offshore drilling platform across the seas, value & fragile, UGC Logistics has the level of service, expertise and experience to make it happen. You will get personalized service at every level with us because we are truly independent, make our own decisions and specialize in our treatment.
+                    </p>
                 </div>
 
                 <div class="col-md-12">
@@ -134,51 +140,6 @@
 
                     <div class="divider-line"></div>
                 </div>
-
-                <div class="text-center">
-                    <h2 class="wow fadeInUp" data-wow-delay="0">Why Choose Us</h2>
-                    <div class="small-border wow flipInY" data-wow-delay=".2s" data-wow-duration=".8s"></div>
-                </div>
-
-                    <div class="col-md-6">
-                        <div class="feature-box">
-                            <i class="icon-tools wow zoomIn" data-wow-delay="0s"></i>
-                            <div class="text wow fadeIn" data-wow-delay=".2s">
-                                <h3>Work Exprerience</h3>
-                                <p>We rely on your experience about 27 years in the world of domestic and international cargo.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="feature-box">
-                            <i class="icon-bargraph wow zoomIn" data-wow-delay=".2s"></i>
-                            <div class="text wow fadeIn" data-wow-delay=".4s">
-                                <h3>We Love What We Do</h3>
-                                <p>We carry out the process in detail to achieve maximum results for our customer satisfaction.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="feature-box">
-                            <i class="icon-pricetags wow zoomIn" data-wow-delay=".4s"></i>
-                            <div class="text wow fadeIn" data-wow-delay=".6s">
-                                <h3>Circumspect</h3>
-                                <p>With measurable consideration and accuracy and negotiable price.</p>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="feature-box">
-                            <i class="icon-refresh wow zoomIn" data-wow-delay=".6s"></i>
-                            <div class="text wow fadeIn" data-wow-delay=".8s">
-                                <h3>Safety Responsible and Timely</h3>
-                                <p>According to the target and important and prioritizing speed and safety.</p>
-                            </div>
-                        </div>
-                    </div>
             </div>
         </div>
     </div>

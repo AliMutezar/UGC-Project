@@ -12,7 +12,7 @@
                 <ul>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/hero-3.PNG" alt="">
+                        <img src="frontend/img-rev-slider/hero-3.PNG" alt="" style="filter:brightness(40%)">
 
                         <div class="tp-caption h-line lft"
                             data-x="20"
@@ -23,7 +23,7 @@
                             data-endspeed="300">
                         </div>
 
-                        <div class="tp-caption sfr custom-font-1" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption sfr custom-font-1"
                             data-x="20"
                             data-y="180"
                             data-speed="800"
@@ -32,7 +32,7 @@
                             WE CARE
                         </div>
 
-                        <div class="tp-caption sfr custom-font-1" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption sfr custom-font-1"
                             data-x="20"
                             data-y="235"
                             data-speed="800"
@@ -41,16 +41,7 @@
                             WHAT WE DELIVERE
                         </div>
 
-                        {{-- <div class="tp-caption sfr custom-font-1"
-                            data-x="20"
-                            data-y="290"
-                            data-speed="800"
-                            data-start="1200"
-                            data-easing="easeInOutCubic">
-                            BY AIR 
-                        </div> --}}
-
-                        <div class="tp-caption sfb custom-font-2" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption sfb custom-font-2"
                             data-x="20"
                             data-y="345"
                             data-speed="800"
@@ -83,7 +74,7 @@
                             data-endspeed="300">
                         </div>
 
-                        <div class="tp-caption lft custom-font-1" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption lft custom-font-1"
                             data-x="center"
                             data-y="220"
                             data-speed="800"
@@ -92,7 +83,7 @@
                             WE LOVE WHATA WE DO
                         </div>
 
-                        <div class="tp-caption sfb custom-font-2" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption sfb custom-font-2"
                             data-x="center"
                             data-y="270"
                             data-speed="800"
@@ -125,7 +116,7 @@
                             data-endspeed="300">
                         </div>
 
-                        <div class="tp-caption lft custom-font-1" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption lft custom-font-1"
                             data-x="center"
                             data-y="220"
                             data-speed="800"
@@ -134,7 +125,7 @@
                             UGC LOGISTIC
                         </div>
 
-                        <div class="tp-caption sfb custom-font-2" style="text-shadow: 1px 1px #41444B;"
+                        <div class="tp-caption sfb custom-font-2"
                             data-x="center"
                             data-y="270"
                             data-speed="800"
@@ -269,15 +260,15 @@
                             <!-- gallery item -->
                             <div class="item">
                                 <div class="picframe">
-                                    <a href="frontend/img/gallery/pic-1.jpg" data-source="frontend/img/gallery/pic-1.jpg" title="Service with a Smile">
+                                    <a href="frontend/img-rev-slider/gallery-1.jpg" data-source="frontend/img-rev-slider/gallery-1.jpg" title="Delivery Throughout Indonesia">
                                         <span class="overlay"></span>
 
                                         <span class="pf_text">
-                                            <span class="project-name">Service with a Smile</span>
+                                            <span class="project-name">Delivery Throughout Indonesia</span>
                                             <span class="small-border"></span>
                                         </span>
 
-                                        <img src="frontend/img/gallery/pic-1.jpg" alt="" />
+                                        <img src="frontend/img-rev-slider/gallery-1.jpg" class="img-custom" alt="" />
                                     </a>
 
                                 </div>
@@ -287,15 +278,15 @@
                             <!-- gallery item -->
                             <div class="item">
                                 <div class="picframe">
-                                    <a href="frontend/img/gallery/pic-2.jpg" data-source="frontend/img/gallery/pic-2.jpg" title="Land Delivery by Truck">
+                                    <a href="frontend/img-rev-slider/gallery-2.jpg" data-source="frontend/img-rev-slider/gallery-2.jpg" title="Precise and Fast">
                                         <span class="overlay"></span>
 
                                         <span class="pf_text">
-                                            <span class="project-name">Land Delivery by Truck</span>
+                                            <span class="project-name">Precise and Fast</span>
                                             <span class="small-border"></span>
                                         </span>
 
-                                        <img src="frontend/img/gallery/pic-2.jpg" alt="" />
+                                        <img src="frontend/img-rev-slider/gallery-2.jpg" class="img-custom" alt="" />
                                     </a>
 
                                 </div>
@@ -305,15 +296,15 @@
                             <!-- gallery item -->
                             <div class="item">
                                 <div class="picframe">
-                                    <a href="frontend/img/gallery/pic-3.jpg" data-source="frontend/img/gallery/pic-3.jpg" title="Land Delivery by Train">
+                                    <a href="frontend/img-rev-slider/gallery-3.jpg" data-source="frontend/img-rev-slider/gallery-3.jpg" title="Integrity and Commitment">
                                         <span class="overlay"></span>
 
                                         <span class="pf_text">
-                                            <span class="project-name">Land Delivery by Train</span>
+                                            <span class="project-name">Integrity and Commitment</span>
                                             <span class="small-border"></span>
                                         </span>
 
-                                        <img src="frontend/img/gallery/pic-3.jpg" alt="" />
+                                        <img src="frontend/img-rev-slider/gallery-3.jpg" class="img-custom" alt="" />
                                     </a>
 
                                 </div>
@@ -517,7 +508,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-9">
-                        <h2>Contact us now to get quote for all your global shipping needs.</h2>
+                        <h2>Contact us now to get quote for all your shipping needs.</h2>
                     </div>
 
                     <div class="col-md-3">

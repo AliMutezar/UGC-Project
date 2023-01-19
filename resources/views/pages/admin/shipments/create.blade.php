@@ -221,12 +221,21 @@
                         </div>
 
                         <div class="form-row my-3">
-                            <div class="col-md-6"></div>
                             <div class="col-md-6">
-                                <label for="email" class="form-label">Customer Email</label>
-                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email">
+                                <label for="email" class="form-label">To Customer Email</label>
+                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email') }}">
 
                                 @error('email')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+                            <div class="col-md-6">
+                                <label for="ccemail" class="form-label">CC Customer Email</label>
+                                <textarea rows="3" class="form-control @error('ccemail') is-invalid @enderror" id="ccemail" name="ccemail" placeholder="contoh1@gmail.com,contoh2@gmail.com" value="{{ old('ccemail') }}"></textarea> 
+
+                                @error('ccemail')
                                     <div class="invalid-feedback">
                                         {{ $message }}
                                     </div>

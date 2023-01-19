@@ -17,6 +17,7 @@ class CreateShipmentHistoriesTable extends Migration
             $table->id();
             $table->string('marking_number');
             $table->string('email');
+            $table->string('ccemail');
             $table->string('service');
             $table->string('shipper');
             $table->string('consignee');

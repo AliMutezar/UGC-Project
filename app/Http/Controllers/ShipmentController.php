@@ -60,10 +60,12 @@ class ShipmentController extends Controller
             "status" => ['required', Rule::notIn(['0'])],
             "image" =>  ['image','file','max:2048'],
             "note" => ['required', 'max:255'],
-            "email" => ['required']
+            "email" => ['required'],
+            "ccemail" => ['required']
         ]);
 
         // dd($request['pickup_date']);
+        // dd($request->all());
 
  
         $validateData['pickup_date'] = Carbon::parse(request('pickup_date'))->format('Y-m-d H:i:s');
@@ -137,11 +139,11 @@ class ShipmentController extends Controller
             "status" => ['required', Rule::notIn(['0'])],
             "image" =>  ['image','file','max:2048'],
             "note" => ['required', 'max:255'],
-            "email" => ['required']
+            "email" => ['required'],
         ]);
 
         // dd($request['pickup_date']);
-
+        // dd(implode(',' , $request->email));
  
         $validateData['pickup_date'] = Carbon::parse(request('pickup_date'))->format('Y-m-d H:i:s');
 

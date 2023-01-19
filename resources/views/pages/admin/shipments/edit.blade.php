@@ -175,12 +175,29 @@
                         </div>
             
                         <div class="form-row justify-content-between">
-                            <div class="col-md-5 my-custom-file">
+                            <div class="col-md-6 my-custom-file">
                                 <input class="custom-file-input @error('image') is-invalid @enderror" type="file" id="image" name="image" onchange="previewImage()">
                                 <label for="formFile" class="custom-file-label">Upload Image</label>
                                 <input type="hidden" name="oldImage" value="{{ $shipment->image }}">
                                 
                                 @error('image')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+
+                            <div class="col-md-6 mb-3">
+                                <label for="status" class="form-label">Shipment Status</label>
+                                <select class="custom-select @error('status') is-invalid @enderror" name="status">
+                                    <option value="0">Choose status</option>
+                                    <option value="create" {{ old('status', $shipment->status) == 'create' ? 'selected' : '' }}>Create</option>
+                                    <option value="loading" {{ old('status', $shipment->status) == 'loading' ? 'selected' : '' }}>Loading</option>
+                                    <option value="process" {{ old('status', $shipment->status) == 'process' ? 'selected' : '' }}>Process</option>
+                                    <option value="success_delivered" {{ old('status', $shipment->status) == 'success_delivered' ? 'selected' : '' }}>Success Delivered</option>
+                                </select>
+
+                                @error('status')
                                     <div class="invalid-feedback">
                                         {{ $message }}
                                     </div>
@@ -198,25 +215,6 @@
                                     <p class="text-center">No Picture</p>
                                 </div>
                             @endif
-                        </div>
-
-                        <div class="form-row my-3">
-                            <div class="col-md-6 mb-3">
-                                <label for="status" class="form-label">Shipment Status</label>
-                                <select class="custom-select @error('status') is-invalid @enderror" name="status">
-                                    <option value="0">Choose status</option>
-                                    <option value="create" {{ old('status', $shipment->status) == 'create' ? 'selected' : '' }}>Create</option>
-                                    <option value="loading" {{ old('status', $shipment->status) == 'loading' ? 'selected' : '' }}>Loading</option>
-                                    <option value="process" {{ old('status', $shipment->status) == 'process' ? 'selected' : '' }}>Process</option>
-                                    <option value="success_delivered" {{ old('status', $shipment->status) == 'success_delivered' ? 'selected' : '' }}>Success Delivered</option>
-                                </select>
-
-                                @error('status')
-                                    <div class="invalid-feedback">
-                                        {{ $message }}
-                                    </div>
-                                @enderror
-                            </div>
 
                             <div class="col-md-6 mb-3">
                                 <label for="note" class="form-label">Note for Shipment</label>
@@ -231,12 +229,22 @@
                         </div>
 
                         <div class="form-row my-3">
-                            <div class="col-md-6"></div>
                             <div class="col-md-6">
-                                <label for="email" class="form-label">Customer Email</label>
-                                <input type="email" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $shipment->email) }}">
+                                <label for="email" class="form-label">To Customer Email</label>
+                                <input type="text" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $shipment->email) }}">
 
                                 @error('email')
+                                    <div class="invalid-feedback">
+                                        {{ $message }}
+                                    </div>
+                                @enderror
+                            </div>
+
+                            <div class="col-md-6">
+                                <label for="ccemail" class="form-label">CC Customer Email</label>
+                                <textarea class="form-control @error('ccemail') is-invalid @enderror" id="ccemail" name="ccemail" value="{{ old('ccemail', $shipment->ccemail) }}"></textarea>
+
+                                @error('ccemail')
                                     <div class="invalid-feedback">
                                         {{ $message }}
                                     </div>

@@ -25,7 +25,7 @@
 
             <p>Terimakasih telah memilih UGC</p>
 
-            <a href="http://indocargo-app.test/track?search={{ $data['marking_number'] }}" role="button" 
+            <a href="https://globalindocargo.alimutezar.com/track?search={{ $data['marking_number'] }}" role="button" 
             style="
             border: none;
             color: white;

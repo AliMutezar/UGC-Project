@@ -140,6 +140,7 @@ class ShipmentController extends Controller
             "image" =>  ['image','file','max:2048'],
             "note" => ['required', 'max:255'],
             "email" => ['required'],
+            "ccemail" => ['required'],
         ]);
 
         // dd($request['pickup_date']);

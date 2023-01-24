@@ -14,7 +14,7 @@ class CreateShipmentsTable extends Migration
     public function up()
     {
         Schema::create('shipments', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('marking_number');
             $table->string('email');
             $table->string('ccemail');

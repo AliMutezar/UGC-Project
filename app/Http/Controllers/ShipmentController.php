@@ -45,7 +45,7 @@ class ShipmentController extends Controller
     {
 
         $validateData = $request->validate([
-            "marking_number" => ['required'],
+            "marking_number" => ['required', 'unique:shipments'],
             "service" => ['required', 'min:3'],
             "shipper" => ['required', 'max:255'],
             "consignee" => ['required', 'max:255'],
@@ -86,7 +86,7 @@ class ShipmentController extends Controller
         Shipment::create($validateData);
         ShipmentHistory::create($validateData);
 
-        dispatch(new SendMailJob($validateData));
+        // dispatch(new SendMailJob($validateData));
         return redirect('admin/shipments')->with('success', 'Shipment has been added');
     }
 
@@ -159,6 +159,7 @@ class ShipmentController extends Controller
         if($request->image) {
             $validateData['image'] = $request->file('image')->store('shipment-images');
         }
+        
 
         // update into Tables shipments and create into shipment histories
         Shipment::where('marking_number', $shipment->marking_number)->update($validateData);

@@ -14,7 +14,7 @@ class CreateShipmentHistoriesTable extends Migration
     public function up()
     {
         Schema::create('shipment_histories', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->string('marking_number');
             $table->string('email');
             $table->string('ccemail');

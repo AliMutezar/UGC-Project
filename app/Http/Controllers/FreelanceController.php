@@ -19,7 +19,7 @@ class FreelanceController extends Controller
             'name' => 'required|max:255',
             'tlpn' => 'required',
             'email' => 'required',
-            'g-recaptcha-response' => 'required|captcha',
+            // 'g-recaptcha-response' => 'required|captcha',
         ]);
 
         Freelance::create($validateData);

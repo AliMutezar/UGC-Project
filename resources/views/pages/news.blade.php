@@ -50,7 +50,7 @@
                             @endif
 
                             <div class="input-group">
-                                <input type="text" class="form-control" placeholder="Cari berita ..." name="search"  value="{{ request('search') }}">
+                                <input type="text" class="form-control" placeholder="Judul Berita ..." name="search"  value="{{ request('search') }}">
                                 <span class="input-group-btn">
                                   <button class="btn" style="padding: 6px;" type="submit">Cari Berita</button>
                                 </span>

@@ -103,6 +103,6 @@ class DashboardCategoryController extends Controller
     public function destroy(Category $category)
     {
         Category::destroy($category->id);
-        return redirect('admin/categories')->with('success', 'Category has been updated');
+        return redirect('admin/categories')->with('success', 'Category has been deleted');
     }
 }

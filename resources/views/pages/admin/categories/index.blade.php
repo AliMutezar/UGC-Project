@@ -111,7 +111,7 @@
                                                     @method('delete')
                                                     @csrf
 
-                                                    <button class="dropdown-item text-danger" onclick="return confirm('Are you sure to delete this category ?')">Delete</button>
+                                                    <button class="dropdown-item text-danger" onclick="return confirm('Are you sure to delete this category, All posts in this category will be deleted ?')">Delete</button>
                                                 </form>
                                             </div>
                                         </div>

@@ -65,7 +65,7 @@
                                                     @method('delete')
                                                     @csrf
 
-                                                    <button class="dropdown-item text-danger" onclick="return confirm('Are you sure to delete this user ?')">Delete</button>
+                                                    <button class="dropdown-item text-danger" onclick="return confirm('Are you sure to delete this user, All posts made by this user will be deleted ?')">Delete</button>
                                                 </form>
                                             </div>
                                         </div>

@@ -368,7 +368,7 @@
         <!-- section close -->
 
         <!-- section begin -->
-        <section id="section-partners">
+        {{-- <section id="section-partners">
             <div class="container">
                 <div class="row">
 
@@ -401,7 +401,7 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
-        </section>
+        </section> --}}
         <!-- section close -->
 
         <!-- section begin -->

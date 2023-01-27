@@ -25,7 +25,7 @@
     <div class="clearfix"></div>
 
     <div class="container">
-        <div class="row mt-5 d-flex justify-content-center">
+        <div class="row my-5 d-flex justify-content-center">
             <div class="col-md-8 col-xs-12">
                 <div class="media">
                     <img src="https://ui-avatars.com/api/?name={{ $post->user->name }}" class="mr-3 img-fluid profile-img rounded-circle" alt="...">

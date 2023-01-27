@@ -38,7 +38,7 @@ class SendMailJob implements ShouldQueue
         //     ->cc(['enakankambing@gmail.com', 'emaildevelopment14@gmail.com'])->send($email);
 
         $email = new SendEmail($this->data);
-        Mail::to($this->data['email'])
-            ->cc($this->data['ccemail'] = explode(',', $this->data['ccemail']))->send($email);
+        Mail::to(explode(';', $this->data['email']))
+            ->cc($this->data['ccemail'] = explode(';', $this->data['ccemail']))->send($email);
     }
 }

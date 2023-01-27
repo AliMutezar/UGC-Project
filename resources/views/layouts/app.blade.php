@@ -9,6 +9,7 @@
     @stack('prepend-style')
     @include('includes.style')
 
+    <link rel="icon" href="frontend/img/logo/logo_ugc.jpeg" type="image/gif">
 </head>
 <body>
     <div id="preloader"></div>

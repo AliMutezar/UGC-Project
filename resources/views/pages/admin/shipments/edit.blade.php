@@ -28,9 +28,6 @@
                             <div class="col-md-6 mb-3">
                                 <label for="marking_number" class="form-label">Marking Number</label>
                                 <input type="text" class="form-control @error('marking_number') is-invalid @enderror" id="marking_number" name="marking_number" autofocus value="{{ old('marking_number', $shipment->marking_number)}}" readonly>
-
-                                {{-- {{ Form::text('marking_number', old('marking_number', $shipment->marking_number), ['readonly' => 'readonly']) }} --}}
-                                {{-- {{ Form::text('marking_number', old('marking_number', $shipment->marking_number), ['disabled' => 'disabled']) }} --}}
                     
                                 @error('marking_number')
                                     <div class="invalid-feedback">
@@ -234,7 +231,7 @@
                         <div class="form-row my-3">
                             <div class="col-md-6">
                                 <label for="email" class="form-label">To Customer Email</label>
-                                <input type="text" class="form-control @error('email') is-invalid @enderror" id="email" name="email" value="{{ old('email', $shipment->email) }}">
+                                <textarea class="form-control @error('email') is-invalid @enderror" id="email" name="email">{{ old('email', $shipment->email) }}</textarea>
 
                                 @error('email')
                                     <div class="invalid-feedback">

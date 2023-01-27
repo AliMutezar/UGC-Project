@@ -12,7 +12,7 @@
                 <ul>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/hero-3.PNG" alt="" style="filter:brightness(40%)">
+                        <img src="frontend/img-rev-slider/bg-2.jpg" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="20"
@@ -368,40 +368,36 @@
         <!-- section close -->
 
         <!-- section begin -->
-        {{-- <section id="section-partners">
+        <section id="section-partners">
             <div class="container">
                 <div class="row">
 
                     <div class="logo-partners">
                         <div class="col-md-2 col-xs-4">
-                            <img class="wow fadeInRight" data-wow-delay=".2s" data-wow-duration=".6s" src="frontend/img/logo/1.jpg" alt="">
+                            <img class="wow fadeInRight" data-wow-delay=".2s" data-wow-duration=".6s" src="frontend/img/logo/IATA.jpeg" alt="">
                         </div>
 
                         <div class="col-md-2 col-xs-4">
-                            <img class="wow fadeInRight" data-wow-delay=".5s" data-wow-duration=".5s" src="frontend/img/logo/2.jpg" alt="">
+                            <img class="wow fadeInRight" data-wow-delay=".5s" data-wow-duration=".5s" src="frontend/img/logo/IGLN.jpeg" alt="">
                         </div>
 
                         <div class="col-md-2 col-xs-4">
-                            <img class="wow fadeInRight" data-wow-delay=".8s" data-wow-duration=".5s" src="frontend/img/logo/3.jpg" alt="">
+                            <img class="wow fadeInRight" data-wow-delay=".8s" data-wow-duration=".5s" src="frontend/img/logo/INFA.jpeg" alt="">
                         </div>
 
-                        <div class="col-md-2 col-xs-4">
-                            <img class="wow fadeInRight" data-wow-delay="1.1s" data-wow-duration=".5s" src="frontend/img/logo/4.jpg" alt="">
+                        <div class="col-md-3 col-xs-4">
+                            <img class="wow fadeInRight" data-wow-delay="1.1s" data-wow-duration=".5s" src="frontend/img/logo/WCA_logistic.jpeg" alt="">
                         </div>
 
-                        <div class="col-md-2 col-xs-4">
-                            <img class="wow fadeInRight" data-wow-delay="1.4s" data-wow-duration=".5s" src="frontend/img/logo/5.jpg" alt="">
-                        </div>
-
-                        <div class="col-md-2 col-xs-4">
-                            <img class="wow fadeInRight" data-wow-delay="1.7s" data-wow-duration=".5s" src="frontend/img/logo/6.jpg" alt="">
+                        <div class="col-md-3 col-xs-4">
+                            <img class="wow fadeInRight" data-wow-delay="1.4s" data-wow-duration=".5s" src="frontend/img/logo/WCAworld.jpeg" alt="">
                         </div>
                     </div>
 
                     <div class="clearfix"></div>
                 </div>
             </div>
-        </section> --}}
+        </section>
         <!-- section close -->
 
         <!-- section begin -->

@@ -27,7 +27,7 @@
     <div id="content">
         <div class="container">
             <div class="row">
-                <div class="col-md-6" style="text-align: justify;">
+                <div class="col-md-6">
                     <img src="frontend/img/pic-1.jpg" class="img-responsive" alt="">
                     <div class="divider-single"></div>
                     <h2>Who We Are</h2>
@@ -35,14 +35,6 @@
                     <p>When you are looking for dedicated and trustworthy logistics & freight forwarding companies, check us out.. Established in 1995, UGC Logistics is one the leading domestics & international freight forwarding, relocation and project logistics management companies delivering cost-effective solutions with world class standard services.</p>
 
                     <p>UGC Logistics is a full-service Logistics & Transportation offering airfreight, sea freight, truckload, LTL, expedited, intermodal, project management, and specialized services. We have the expertise that allows us to prepare and process the documentation and perform related activities pertaining to international shipments. With transportation solutions including Air and Sea, across Indonesia (including Truckload and Less Than Truckload), 3PL Services, Warehouse Management and Intermodal, we can create a unique supply chain logistics solution that will allow you to focus on what matters most - your core goals.</p>
-
-                    <p>Through ongoing education of our agents -- both customer service and cartage -- as well as through our partners, UGC Logistics ensures you will be handled by our experience and dedicated team.</p>
-
-                    <p>UGC Logistics is a proven leader among domestic and international freight forwarding companies in the market. This is accomplished by learning customers' exact objectives with regards to their internal and external requirements. Our service is customized and tailored base on those needed. When you are ready to learn more about our transportation solutions, contact us at anytime.</p>
-
-                    <p>As the preferred supplier for various Fortune hundreds companies we are very proud of our reputation and always strive to maintain it.</p>
-
-
                 </div>
 
                 <div class="col-md-6">
@@ -56,6 +48,26 @@
 
                     <p>UGC Logistics provides "one-stop-solution" to meet all of your logistics requirements. Whether you are looking to relocate household goods across the region, move an offshore drilling platform across the seas, value & fragile, UGC Logistics has the level of service, expertise and experience to make it happen. You will get personalized service at every level with us because we are truly independent, make our own decisions and specialize in our treatment.
                     </p>
+                </div>
+
+                <div class="col-md-6" style="margin-top: 2rem;">
+                    <img src="frontend/img/pic-demo.jpg" class="img-responsive" alt="">
+                    <div class="divider-single"></div>
+                    <h2>Judul berikutnya</h2>
+                    <div class="tiny-border"></div>
+                    <p>Paragraf pertama. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae fugit inventore voluptatibus sint corrupti, ullam deserunt. Voluptas, voluptate? Amet?>
+
+                    <p>Paragraf kedua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero praesentium facilis voluptatem corporis omnis perspiciatis facere minima, sapiente numquam?</p>
+                </div>
+
+                <div class="col-md-6" style="margin-top: 2rem;">
+                    <img src="frontend/img/pic-demo.jpg" class="img-responsive" alt="">
+                    <div class="divider-single"></div>
+                    <h2>Judul berikutnya</h2>
+                    <div class="tiny-border"></div>
+                    <p>Paragraf pertama. Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa molestiae fugit inventore voluptatibus sint corrupti, ullam deserunt. Voluptas, voluptate? Amet?>
+
+                    <p>Paragraf kedua. Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum libero praesentium facilis voluptatem corporis omnis perspiciatis facere minima, sapiente numquam?</p>
                 </div>
 
                 <div class="col-md-12">

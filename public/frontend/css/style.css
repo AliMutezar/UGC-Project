@@ -50,6 +50,14 @@ BODY
 	overflow: hidden;
 	}
 
+	html, body {
+		overflow-x: hidden;
+	}
+
+	body {
+		position: relative
+	}
+
 /*------------------------------ 
 HEADER
 ------------------------------ */
@@ -3146,7 +3154,7 @@ background: #D03232;
 }
 
 #explore-1.side-bg .background-image {
-background: url('../img/bg/bg_square_1.jpg');
+background: url('../img/bg/bg-news-01.jpg');
 }
 
 #explore-2 {
@@ -3841,11 +3849,11 @@ background: #D03232;
 border: solid 2px #D03232;
 }
 
-.social-icons i:hover {
+/* .social-icons i:hover {
 color: #D03232;
 border: solid 2px #D03232;
 background: none;
-}
+} */
 
 
 /* overide */

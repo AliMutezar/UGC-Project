@@ -3,6 +3,12 @@
     Track
 @endsection
 
+@prepend('prepend-style')
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+@endprepend
+
 @section('content')
     <!-- subheader begin -->
     <section id="subheader" class="page-track no-bottom" data-stellar-background-ratio="0.5">
@@ -61,7 +67,8 @@
                                                 <div class="timeline-body">
                                             
                                                     {{ $shipment->note }} 
-                                                    <span class="location">Status barang sekarang {{ $shipment->status }} 
+                                                    
+                                                    <span class="location">Status barang {{ $shipment->status }} 
                                                         @if ($shipment->image)
                                                             <a href="{{ asset('storage/' . $shipment->image) }}" class="popup-gmaps">Lihat gambar</a>
                                                         @elseif ($shipment->image_bukti_kirim)
@@ -73,6 +80,66 @@
                                         </li>
                                     @endforeach
                                 </ul>
+                            </div>
+
+                            <button class="btn btn-primary" type="button" style="margin-top: 2rem; padding: 10px; background-color: #D03232; color: #fff; border: none;" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                                See Details
+                              </button>
+
+                              <div class="collapse" id="collapseExample">
+                                <div style="margin-top: 1rem;">
+                                    <table class="table table-dark">
+                                        <tbody>
+                                          <tr>
+                                            <th>Shipper</th>
+                                            <td>{{ $shipment->shipper }}</td>
+
+                                            <th>Service</th>
+                                            <td>{{ $shipment->service }}</td>
+                                          </tr>
+
+                                          <tr>
+                                            <th>Consignee</th>
+                                            <td>{{ $shipment->consignee }}</td>
+
+                                            <th>Volume</th>
+                                            <td>{{ $shipment->volume }}</td>
+                                          </tr>
+
+                                          <tr>
+                                            <th>Origin</th>
+                                            <td>{{ $shipment->origin }}</td>
+
+                                            <th>Volume</th>
+                                            <td>{{ $shipment->destination }}</td>
+                                          </tr>
+
+                                          <tr>
+                                            <th>Pikup Date</th>
+                                            <td>  {{ $shipment->pickup_date}}</td>
+
+                                            <th>Actual Date</th>
+                                            <td>  {{ $shipment->actual_delivered_date }}</td>
+                                          </tr>
+
+                                          <tr>
+                                            <th>Dimension</th>
+                                            <td>{{ $shipment->dimension }}</td>
+
+                                            <th>Weight</th>
+                                            <td>{{ $shipment->weight }}</td>
+                                          </tr>
+
+                                          <tr>
+                                            <th>Note</th>
+                                            <td>{{ $shipment->note }}</td>
+
+                                            <th>Marking Number</th>
+                                            <td>{{ $shipment->marking_number }}</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
                             </div>
                         @else
                             <p class="text-center" style="margin-top: 3rem;">Marking number is not found</p>

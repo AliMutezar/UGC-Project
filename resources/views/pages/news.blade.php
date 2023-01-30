@@ -63,18 +63,18 @@
                             @foreach ($posts as $post)
                                 <div class="col-md-6 news-item item">
                                     @if ($post->image)
-                                        <a href="/news/{{ $post->slug }}">
+                                        <a href="/news/{{ $post->slug }}" target="_blank">
                                             <img src="{{ asset('storage/' . $post->image) }}" class="img-responsive rounded-sm"
                                                 alt="{{ $post->category->name }}">
                                         </a>
                                     @else
-                                        <a href="/news/{{ $post->slug }}">
+                                        <a href="/news/{{ $post->slug }}" target="_blank">
                                             <img src="https://source.unsplash.com/400x200/?{{ $post->category->name }}" class="img-responsive rounded-sm" alt="{{ $post->category->name }}">
                                         </a>
                                     @endif
 
                                     <div class="desc">
-                                        <a href="/news/{{ $post->slug }}">
+                                        <a href="/news/{{ $post->slug }}" target="_blank">
                                             <h3>{{ $post->title }}</h3>
                                         </a>
                                         <div class="post-details">{{ $post->created_at->diffForHumans() }}

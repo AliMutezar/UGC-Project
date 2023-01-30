@@ -12,7 +12,7 @@
                 <ul>
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/bg-2.jpg" alt="">
+                        <img src="frontend/img-rev-slider/bg-6.jpg" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="20"
@@ -63,7 +63,7 @@
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/hero-2.PNG" alt="">
+                        <img src="frontend/img-rev-slider/bg-8.jpg" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="center"
@@ -105,7 +105,7 @@
 
                     <li data-transition="fade" data-slotamount="7" data-masterspeed="2500" data-delay="5000">
                         <!--  BACKGROUND IMAGE -->
-                        <img src="frontend/img-rev-slider/hero-1.jpeg" alt="">
+                        <img src="frontend/img-rev-slider/bg-7.jpg" alt="">
 
                         <div class="tp-caption h-line lft"
                             data-x="center"
@@ -333,28 +333,17 @@
                     <div class="col-md-5">
                         <div class="inner-padding">
                             <div id="testi-carousel" class="testi-slider wow fadeIn" data-wow-delay="0s" data-wow-duration="1s">
-                                <div class="item">
-                                    <blockquote>
-                                        Multi-modal container units, designed as reusable carriers to facilitate unit load handling of the goods contained, are also referred to as cargo, specially by shipping lines and logistics operators.
+                                @foreach ($posts as $post)
+                                    <a href="/news/{{ $post->slug }}" style="text-decoration: none;" target="_blank">
+                                        <div class="item">
+                                            <blockquote>
+                                                {{ $post->excerpt }}
 
-                                    </blockquote>
-                                    <span class="testi-by">Aline Drummond</span>
-                                </div>
-                                <div class="item">
-                                    <blockquote>
-                                        Multi-modal container units, designed as reusable carriers to facilitate unit load handling of the goods contained, are also referred to as cargo, specially by shipping lines and logistics operators. 
-
-                                    </blockquote>
-                                    <span class="testi-by">Mortimer Elmo</span>
-                                </div>
-                                <div class="item">
-                                    <blockquote>
-                                        Multi-modal container units, designed as reusable carriers to facilitate unit load handling of the goods contained, are also referred to as cargo, specially by shipping lines and logistics operators. 
-
-                                    </blockquote>
-
-                                    <span class="testi-by">Marina Leopold</span>
-                                </div>
+                                            </blockquote>
+                                            <span class="testi-by">{{ $post->user->name }}</span>
+                                        </div>
+                                    </a>
+                                @endforeach
 
                             </div>
                         </div>

@@ -36,7 +36,7 @@
                                     <h2>Ocean Freight</h2>
                                     <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
                                     <div class="divider-single"></div>
-                                    <a href="/services-detail" class="btn-text">View Details</a>
+                                    {{-- <a href="/services-detail" class="btn-text">View Details</a> --}}
                                 </div>
                             </div>
                         </div>

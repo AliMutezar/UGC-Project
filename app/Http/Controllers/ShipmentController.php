@@ -9,6 +9,7 @@ use Carbon\Carbon;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 use Illuminate\Support\Facades\Storage;
+use Yajra\DataTables\Facades\DataTables;
 
 class ShipmentController extends Controller
 {
@@ -17,11 +18,29 @@ class ShipmentController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
+    
+    public function index(Request $request)
+    {   
+
+        $shipments = Shipment::all();
+        if($request->ajax()) {
+            return DataTables::of($shipments)
+                ->addIndexColumn()
+                ->editColumn('updated_at', function($data) {
+                    return Carbon::parse($data->update_at)->format('Y-m-d H:m:s');
+                })
+
+                ->addColumn('action', function($row) {
+
+                    $td = '<a class="text-info" href="/admin/shipments/'.$row->marking_number.'/edit">Detail</a>';
+                    return $td;
+                })
+                ->rawColumns(['action'])
+                ->make(true);
+        }
+
         return view('pages.admin.shipments.index', [
-            'table_title' =>  'Shipments Data',
-            'shipments' => Shipment::all()
+            'table_title' => 'Shipment Data'
         ]);
     }
 

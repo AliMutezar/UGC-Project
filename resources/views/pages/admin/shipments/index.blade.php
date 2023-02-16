@@ -27,11 +27,13 @@
                 @endif
 
                 <div class="table-responsive">
-                    <table class="table table-borderless table-hover text-nowrap" id="dataTable" width="100%" cellspacing="0">
+                    <table class="table table-borderless table-hover text-nowrap" id="tableShipment" width="100%" cellspacing="0">
                         <thead class="thead-dark">
                             <tr>
-                                <th class="text-center">No</th>
-                                <th style="width: 20%">Marking Number</th>
+                                <th>id</th>
+                                <th>Marking Number</th>
+                                {{-- <th>Email</th>
+                                <th>CC Email</th> --}}
                                 <th>Service</th>
                                 <th>Shipper</th>
                                 <th>Consignee</th>
@@ -51,8 +53,10 @@
                         </thead>
                         <tfoot>
                             <tr>
-                                <th class="text-center">No</th>
-                                <th style="width: 20%">Marking Number</th>
+                                <th>id</th>
+                                <th>Marking Number</th>
+                                {{-- <th>Email</th>
+                                <th>CC Email</th> --}}
                                 <th>Service</th>
                                 <th>Shipper</th>
                                 <th>Consignee</th>
@@ -70,49 +74,9 @@
                                 <th>Act</th>
                             </tr>
                         </tfoot>
-                        <tbody>
-                            @foreach ($shipments as $shipment)
-                                <tr>
-                                    <td class="text-center">{{ $loop->iteration }}</td>
-                                    <td>{{ $shipment->marking_number }}</td>
-                                    <td>{{ $shipment->service }}</td>
-                                    <td>{{ $shipment->shipper }}</td>
-                                    <td>{{ $shipment->consignee }}</td>
-                                    <td>{{ $shipment->volume }}</td>
-                                    <td>{{ $shipment->origin }}</td>
-                                    <td>{{ $shipment->pickup_date }}</td>
-                                    <td>{{ $shipment->delivery_date }}</td>
-                                    <td>{{ $shipment->actual_delivered_date }}</td>
-                                    <td>{{ $shipment->dimension }}</td>
-                                    <td>{{ $shipment->weight }}</td>
-                                    <td>{{ $shipment->destination }}</td>
-                                    <td>{{ $shipment->status }}</td>
-                                    <td>{{ $shipment->note }}</td>
-                                    <td>{{ $shipment->updated_at }}</td>
-                                    <td class="text-center">
-                                        <div class="dropdown">
-                                            <button class="btn btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-expanded="false">
-                                                <i class="fas fa-ellipsis-v"></i>
-                                            </button>
-                                            <div class="dropdown-menu text-right animated--fade-in">
-                                                <a class="dropdown-item" href="/admin/shipments/{{ $shipment->marking_number }}/edit">Edit</a>
-
-                                                <form action="/admin/shipments/{{ $shipment->marking_number }}" method="POST">
-                                                    @method('delete')
-                                                    @csrf
-
-                                                    <button class="dropdown-item text-danger" onclick="return confirm('Are you sure to delete this shipment data ?')">Delete</button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </td>
-                                </tr>
-                            @endforeach
-                        </tbody>
                     </table>
                 </div>
             </div>
         </div>
-
     </div>
 @endsection

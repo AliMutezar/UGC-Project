@@ -19,8 +19,9 @@
                     <h6 class="m-0 font-weight-bold text-primary">Update Shipment</h6>
                 </div>
                 <div class="card-body">
+                    
                     {{-- karena pake route resource, form method post ini akan otomatis mengarah ke method store di DashboardPostController --}}
-                    <form method="POST" action="/admin/shipments/{{ $shipment->marking_number }}" class="mb-5" enctype="multipart/form-data">
+                    <form method="POST" action="/admin/shipments/{{ $shipment->marking_number }}" class="mb-4" enctype="multipart/form-data">
                         @method('put')
                         @csrf
                         
@@ -256,6 +257,17 @@
                             <i class="fas fa-save mr-2"></i> Update Shipment
                         </button>
                     </form>
+
+                    <div class="d-flex">
+                        <form action="/admin/shipments/{{ $shipment->marking_number }}" method="POST">
+                            @method('delete')
+                            @csrf
+    
+                            <button class="btn btn-outline-danger" onclick="return confirm('Are you sure to delete this shipment data ?')">
+                                <i class="fas fa-trash"></i> Delete Data
+                            </button>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>

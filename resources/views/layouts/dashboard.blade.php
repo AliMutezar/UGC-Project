@@ -68,5 +68,33 @@
     
 
     @include('includes.admin.script')
+
+    <script>
+        $('#tableShipment').DataTable({
+            scrollX: true,
+            processing: true,
+            serverSide: true,
+            ajax: '{!! route('admin.shipments.index') !!}',
+            columns: [
+                {data: 'id', name: 'id'},
+                {data: 'marking_number', name: 'marking_number'},
+                {data: 'service', name: 'service'},
+                {data: 'shipper', name: 'shipper'},
+                {data: 'consignee', name: 'consignee'},
+                {data: 'volume', name: 'volume'},
+                {data: 'origin', name: 'origin'},
+                {data: 'pickup_date', name: 'pickup_date'},
+                {data: 'delivery_date', name: 'delivery_date'},
+                {data: 'actual_delivered_date', name: 'actual_delivered_date'},
+                {data: 'dimension', name: 'dimension'},
+                {data: 'weight', name: 'weight'},
+                {data: 'destination', name: 'destination'},
+                {data: 'status', name: 'status'},
+                {data: 'note', name: 'note'},
+                {data: 'updated_at', name: 'updated_at'},
+                {data: 'action', name: 'action', orderable: false, searchable: false},
+            ]
+        });
+    </script>
 </body>
 </html>

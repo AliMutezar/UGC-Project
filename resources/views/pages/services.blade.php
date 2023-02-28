@@ -34,9 +34,11 @@
                                 <i class="fa fa-ship icon-big"></i>
                                 <div class="text">
                                     <h2>Ocean Freight</h2>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                                    <p>
+                                        Ocean Freight dalam pengiriman Internasional merupakan metode lalu lintas barang secara internasional melalui jalur laut. Ocean Freight pilihan paling populer untuk pengiriman barang internasional. Ocean freight adalah bagian penting dari perdagangan lintas batas yang memungkinkan setiap orang memindahkan sejumlah besar barang antarnegara.
+                                    </p>
                                     <div class="divider-single"></div>
-                                    {{-- <a href="/services-detail" class="btn-text">View Details</a> --}}
+                                    <a href="/services-ocean-freight" class="btn-text">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -46,9 +48,11 @@
                                 <i class="fa fa-send-o icon-big"></i>
                                 <div class="text">
                                     <h2>Air Freight</h2>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                                    <p>
+                                        Air Freight merupakan salah satu jenis transportasi yang menggunakan mode udara untuk pengiriman barang dari tempat asal ke tujuan. Perkembangan angkutan udara sejalan dengan perkembangan yang menghasilkan barang bernilai atau mudah rusak, sehingga lebih memilih angkutan udara untuk tempat tujuan.
+                                    </p>
                                     <div class="divider-single"></div>
-                                    <a href="/services-detail" class="btn-text">View Details</a>
+                                    <a href="/services-air-freight" class="btn-text">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -60,9 +64,11 @@
                                 <i class="fa fa-cubes icon-big"></i>
                                 <div class="text">
                                     <h2>Logistics</h2>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                                    <p>
+                                        Jasa Logistics merupakan jasa yang menyediakan pengiriman barang dalam skala kecil, menengah, maupun besar. Dengan penentuan tarif kirim berdasarkan berat barang, jarak pengiriman, dan jenis layanan pengiriman yang digunakan oleh pengguna.
+                                    </p>
                                     <div class="divider-single"></div>
-                                    <a href="/services-detail" class="btn-text">View Details</a>
+                                    <a href="/services-logistics" class="btn-text">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -72,10 +78,12 @@
                             <div class="box-with-icon-left">
                                 <i class="fa fa-train icon-big"></i>
                                 <div class="text">
-                                    <h2>Cargo Express</h2>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                                    <h2>Door to Door</h2>
+                                    <p>
+                                        Door to door service memiliki arti bahwa layanan pengiriman barang yang akan dijemput dari gudang pengirim menuju tempat penerima barang. Singkatnya jika pelanggan menggunakan service jasa door to door ini, mereka tidak direpotkan dengan proses atau prosedur apapun. 
+                                    </p>
                                     <div class="divider-single"></div>
-                                    <a href="/services-detail" class="btn-text">View Details</a>
+                                    <a href="/services-door-to-door" class="btn-text">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -87,9 +95,11 @@
                                 <i class="fa fa-home icon-big"></i>
                                 <div class="text">
                                     <h2>Warehousing</h2>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                                    <p>
+                                        Warehouse dalam dunia logistik kargo adalah tempat dimana barang-barang yang akan dikirimkan ditempatkan di dalam satu ruangan besar. Biasanya di dalam gudang juga tersimpan bahan bak, bahan setengah jadi, atau barang jadi. Dengan kata lain gudang berarti tempat penyimpanan barang sebelum barang dikirimkan ke lokasi tujuan. 
+                                    </p>
                                     <div class="divider-single"></div>
-                                    <a href="/services-detail" class="btn-text">View Details</a>
+                                    <a href="/services-warehouse" class="btn-text">View Details</a>
                                 </div>
                             </div>
                         </div>
@@ -99,9 +109,11 @@
                                 <i class="fa fa-truck icon-big"></i>
                                 <div class="text">
                                     <h2>Custom Brokerage</h2>
-                                    <p>The word cargo refers in particular to goods or produce being conveyed generally for commercial gain by ship, boat, or aircraft, although the term is now often extended to cover all types of freight, including that carried by train, van, truck, or container. </p>
+                                    <p>
+                                        Custom brokerage adalah perusahaan yang memiliki fasilitas pengiriman yang melintasi batas geografis untuk individu atau organisasi, biasanya ini merupakan pengiriman barang ekspor dan impor.
+                                    </p>
                                     <div class="divider-single"></div>
-                                    <a href="/services-detail" class="btn-text">View Details</a>
+                                    <a href="/services-custom-brokerage" class="btn-text">View Details</a>
                                 </div>
                             </div>
                         </div>

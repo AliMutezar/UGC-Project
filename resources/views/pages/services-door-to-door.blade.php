@@ -10,7 +10,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-12">
-                        <h1>Ocean Freight
+                        <h1>Door to Door
                     <span>Secure &amp; Reliable</span>
                         </h1>
                         <div class="small-border wow flipInY" data-wow-delay=".8s" data-wow-duration=".8s"></div>
@@ -36,10 +36,14 @@
                 <div class="row">
                     <div class="col-md-5 wow fadeInRight" data-wow-delay=".5s" data-wow-duration=".8s">
 
-                        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                        <p class="lead" style="text-align:justify;">
+                            Door to door service memiliki arti bahwa layanan pengiriman barang yang akan dijemput dari gudang pengirim menuju tempat penerima barang. Singkatnya jika pelanggan menggunakan service jasa door to door ini, mereka tidak direpotkan dengan proses atau prosedur apapun. 
+                        </p>
 
-                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
-
+                        <p class="lead" style="text-align:justify;">
+                            Fungsi door to door service dalam pengiriman barang, yaitu : 
+                            Barang langsung dijemput ditempat penjual dan dikirim langsung ke gudang consignee / pemilik barang.
+                        </p>
                     </div>
 
                 </div>

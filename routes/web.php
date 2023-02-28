@@ -35,8 +35,30 @@ Route::get('/services', function() {
     return view('pages.services');
 });
 
-Route::get('/services-detail', function() {
-    return view('pages.services-detail');
+
+// Service Details
+Route::get('/services-ocean-freight', function() {
+    return view('pages.services-ocean-freight');
+});
+
+Route::get('/services-air-freight', function() {
+    return view('pages.services-air-freight');
+});
+
+Route::get('/services-logistics', function() {
+    return view('pages.services-logistics');
+});
+
+Route::get('/services-door-to-door', function() {
+    return view('pages.services-door-to-door');
+});
+
+Route::get('/services-warehouse', function() {
+    return view('pages.services-warehouse');
+});
+
+Route::get('/services-custom-brokerage', function() {
+    return view('pages.services-custom-brokerage');
 });
 
 Route::get('/about', function() {

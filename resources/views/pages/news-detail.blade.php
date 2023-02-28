@@ -31,7 +31,7 @@
                     <img src="https://ui-avatars.com/api/?name={{ $post->user->name }}" class="mr-3 img-fluid profile-img rounded-circle" alt="...">
                     <div class="media-body">
                         <h5 class="mt-0 d-inline">{{ $post->user->name }}</h5>
-                        <p>22 July 2022 <span class="separator">|</span> Category : <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a> </p>
+                        <p>{{ $post->created_at->diffForHumans() }} <span class="separator">|</span> Category : <a href="/categories/{{ $post->category->slug }}">{{ $post->category->name }}</a> </p>
                     </div>
                 </div>
     
